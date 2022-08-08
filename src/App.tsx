@@ -17,6 +17,7 @@ function App() {
        setGet([])
     }
 
+
 // с этим хуком все сразу отрисовывается
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/posts')
